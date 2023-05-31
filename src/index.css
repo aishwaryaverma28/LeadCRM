@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  }
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffa880), to(#da1b60));
+  box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+}

@@ -1,0 +1,156 @@
+.customerCare{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 4.5rem;
+}
+.support{
+    display: flex;
+    gap: 0.5rem;
+    color: #51BFF0;
+    text-decoration: none;
+}
+.supportHeading{
+    color: black;
+}
+.supportHeading:hover{
+    color: #51BFF0;
+}
+.socialMedia{
+    border: 2px solid #51BFF0;
+    background-color: #51BFF0;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 0.3rem 0.3rem;
+    color: #fff;
+}
+.socialMedia:hover{
+    background-color: orange;
+    border: orange;
+}
+.logoImg{
+    width: 4rem;
+}
+.loginNavBar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem 4rem;
+    box-shadow: 2px 2px 20px #c5bfbf, -2px -2px 20px #fff;
+}
+.navOptions{
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.Home{
+    color: #51BFF0;
+    padding: 0.5rem 1rem;
+}
+.Home:hover{
+    cursor: pointer;
+    color: orange;
+}
+.navBlack{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.navBlack:hover{
+    color: #51BFF0;
+    text-decoration: underline;
+}
+.Demobtn{
+    background-color: orange;
+    padding: 0.5rem 0.3rem;
+    border: none;
+    border-radius: 5rem;
+    color: #fff;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+.arrowIcon{
+    /* border: 2px solid red; */
+    padding: 0.3rem;
+    border-radius: 50%;
+    background-color: rgb(242, 192, 99);
+}
+.demoText{
+    padding: 0.5rem 1rem;
+}
+.freeTrailBtn{
+    background-color:#51BFF0;
+    padding: 0.5rem 0.3rem;
+    border: none;
+    border-radius: 5rem;
+    color: #fff;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+.arrowIcon2{
+    /* border: 2px solid red; */
+    padding: 0.3rem;
+    border-radius: 50%;
+    background-color: #a2daf3;
+}
+.NavhamburgerMenu{
+    padding: 1rem;
+    display: none;
+}
+.NavhamburgerMenu>button>a:hover{
+    color: orange;
+}
+
+.NavhamburgerMenu>button{
+    border: none;
+}
+.NavhamburgerMenu>button>a{
+    color: #51BFF0;
+}
+.LoginmenuContent{
+    /* border: 2px solid red; */
+    display: none;
+    width: 20vw;
+    height: 40vh;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #c5bfbf, -2px -2px 20px #fff;
+
+}
+.LoginnavOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:800px){
+    .logoImg{
+        width: 2.5rem;
+    }
+    .customerCare{
+        justify-content: center;
+    }
+    .NavhamburgerMenu{
+       display: inline;
+    }
+    .navOptions{
+        display: none;
+    }
+    .LoginmenuContent{
+        display: inline;
+        width: 30vw;
+        height: 40vh;
+    }
+}
+
+@media (max-width:450px){
+    .logoImg{
+        width: 1.6rem;
+    }
+}
